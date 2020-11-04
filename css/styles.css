@@ -1,0 +1,84 @@
+:root{
+    --red-color: #ff3333
+}
+
+body{
+    color: #fff;
+}
+
+.navbar{
+    border-bottom: var(--red-color) 3px solid;
+}
+
+.hobby-inner, .project-inner, .contact-inner{
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+.home-inner{
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+
+#home-section{
+    background-image: url('../img/mountain.jpeg');
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.dark-overlay{
+    background-color:rgba(0,0,0,0.5);
+    width: 100%;
+    min-height: 100vh;
+}
+
+#home-section .fas{
+    color:var(--red-color);
+    background-color: #fff;
+    padding:4px;
+    border-radius:5px;
+    font-size:30px;
+}
+
+#hobby-section{
+    background-image: url('../img/workstation.jpeg');
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#hobby-section .card{
+    margin: 10px auto;
+    color:black;
+}
+
+#hobby-section .card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+#project-section{
+    background-image: url('../img/resume.jpeg');
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#contact-section{
+    background-image: url('../img/email.jpeg');
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+footer{
+    background-color:#343a40;
+    border-top: var(--red-color) 3px solid;
+    text-align: center;
+}
